@@ -46,7 +46,7 @@ function App() {
 		} catch (error) {
 			setNewImages(false);
 			setLoading(false);
-			console.log(error);
+			console.log(error.message);
 		}
 	};
 
